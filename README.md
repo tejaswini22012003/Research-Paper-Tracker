@@ -1,2 +1,2 @@
 # DLithe-Project
-Ideathon/ Hackathons 
+Food Delivery Application System
