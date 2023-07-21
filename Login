@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>login Form</title>
+    <link  type="text/css" rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+
+</head>
+  <body>
+    <div class="login_page">
+        <h1>Login</h1>   <br>
+        <p>Don't have an account? <a href="http://127.0.0.1:5500/signup.html"> Register now!</a></p>
+    
+    </div>
+    
+    <!-- Body of Form starts -->
+  	<div class="container">
+      <form method="post" autocomplete="on">
+
+
+    <!---Email ID---->
+    <div class="box">
+    <label for="email" class="fl fontLabel"> <b>Email ID:</b> </label>
+          <div class="fl iconBox"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+          <div class="fr">
+                  <input type="email" required name="email" placeholder="Email Id" class="textBox">
+          </div>
+          <div class="clr"></div>
+      </div><br><br>
+      <!--Email ID----->
+
+
+    		<!---Password------>
+    		<div class="box">
+          <label for="password" class="fl fontLabel"> <b>Password</b> </label>
+    			<div class="fl iconBox"><i class="fa fa-key" aria-hidden="true"></i></div>
+    			<div class="fr">
+    					<input type="Password" required name="password" placeholder="Password" class="textBox">
+    			</div>
+    			<div class="clr"></div>
+    		</div><br>
+    		<!---Password---->
+
+        <div class="box">
+        <div class="forgot_pwd">
+          <p style="text-align: right;"><a href="http://127.0.0.1:5500/forgot_pwd.html">Forgot Password?</a></p>
+          </div>
+        </div>
+
+
+    		<!---Submit Button------>
+    		<div class="box" style="margin-left: -30%;">
+    				<input type="Submit" name="Submit" class="submit" value="LOGIN">
+    		</div>
+            <br><br>
+    		<!---Submit Button----->
+
+      </form>
+      
+  </div>
+  
+  <!--Body of Form ends--->
+
+  
+  </body>
+</html>
