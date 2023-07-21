@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color:white;
+	
+}
+
+	
+    /*background-color: rgb(15, 27, 67); 
+}
+.back_img {
+	background-image: url("./image/img1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+  }*/
+  .container{
+	background: #86bce2;
+	width: 350px;
+	height: 410px;
+	padding-bottom: 20px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: auto;
+  padding: 70px 50px 20px 50px;
+}
+
+.signup_page{
+    font-size: 17px;
+    color: #03416c;
+    text-align: center;
+    padding: 2%;
+}
+.signup_page a{
+	color: rgb(188, 145, 36);
+}
+.fl{
+	float: left;
+  width: 110px;
+  line-height: 35px;
+}
+
+.fontLabel{
+  color: #03416c;
+}
+
+.fr{
+	float: right;
+}
+
+.clr{
+	clear: both;
+}
+
+.box{
+	width: 360px;
+	height: 35px;
+	margin-top: 10px;
+	font-family: verdana;
+	font-size: 12px;
+}
+
+.textBox{
+	height: 35px;
+	width: 190px;
+	border: none;
+  padding-left: 20px;
+}
+
+.new{
+  float: left;
+}
+
+.iconBox{
+	height: 35px;
+	width: 40px;
+	line-height: 38px;
+	text-align: center;
+  background: #37a0fc;
+}
+
+.radio{
+	color: black;
+	font-size: 13px;
+	line-height: 38px;
+}
+/*
+.terms{
+	line-height: 35px;
+	text-align: center;
+	background: #3b767a;
+	color: white;
+}
+*/
+
+.submit{
+    
+    margin: 20px;
+    border-radius: 6px;
+	float: right;
+	border: none;
+	color: white;
+	width: 110px;
+	height: 35px;
+	background: #031f37;
+    border: 3px solid rgb(37, 111, 190);
+	text-transform: uppercase;
+  cursor: pointer;
+}
+.submit:hover{
+
+    background-color: rgb(230, 235, 245);
+    color: black;
+    border: 3px solid rgb(37, 111, 190);
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+
+}
+

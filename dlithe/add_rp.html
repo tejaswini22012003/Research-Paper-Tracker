@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Research Paper Submission</title>
+  <link rel="stylesheet" type="text/css" href="add_rp.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Research Paper Submission</h1>
+    <form action="process_form.php" method="POST" enctype="multipart/form-data">
+      <label for="title">Title of Research Paper:</label>
+      <input type="text" name="title" id="title" required>
+
+      <label for="domain">Domain:</label>
+      <input type="text" name="domain" id="domain" required></br>
+
+      <label for="funding">Funding:</label>
+      <div class="radio-group">
+        <input type="radio" name="funding" id="international" value="international" required>
+        <label for="international">International</label>
+        <input type="radio" name="funding" id="domestic" value="domestic" required>
+        <label for="domestic">Domestic</label>
+      </div></br>
+
+      <label for="patent">Patent:</label>
+      <div class="radio-group">
+        <input type="radio" name="patent" id="apply" value="apply" required>
+        <label for="apply">Apply</label>
+        <input type="radio" name="patent" id="not_needed" value="not_needed" required>
+        <label for="not_needed">Not Needed</label>
+      </div></br>
+
+      <label for="previous_publications">Previous Publications:</label>
+      <div class="radio-group">
+        <input type="radio" name="previous_publications" id="yes" value="yes" required>
+        <label for="yes">Yes</label>
+        <input type="radio" name="previous_publications" id="no" value="no" required>
+        <label for="no">No</label>
+        <br>
+      </div>
+      <label for="public_link">If Yes, Provide a link :</label>
+      <input type="text" name="public_link" id="public_link" required></br>
+
+      <div id="link_field">
+        <label for="link">Link:</label>
+        <input type="text" name="link" id="link">
+      </div></br>
+
+      <label for="research_paper">Upload Research Paper:</label>
+      <input type="file" name="research_paper" id="research_paper" required><br></br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="add_rp.js"></script>
+</body>
+</html>

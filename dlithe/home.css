@@ -1,0 +1,180 @@
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./image/mite wp3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+    -webkit-backdrop-filter: blur(30px);
+    z-index: -1;
+  }
+  
+.task{
+    font-family:'Poppins',sans-serif;
+    position: relative;
+}
+.hero{
+    font-family:'Poppins',sans-serif;
+    position: relative;
+}
+
+nav p{
+    color:#04355a;
+    font-size: 45px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+.task nav ul {
+    display: flex;
+  }
+  
+  .task nav .btn_register {
+    margin-right: 100px; /* Adjust the value as per your desired gap */
+  }
+  
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    font-family:'Poppins',sans-serif;
+    position: relative;
+}
+nav{
+    width: 81%;
+    margin: auto;
+    padding:20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+nav ul li a{
+    text-decoration: none;
+    color:rgb(43, 32, 32)
+}
+nav ul li a:hover{
+    color: blue;
+}
+.info{
+    text-align: center;
+    margin-left: 0;
+    margin-top: 9%;
+    color:#e3e6ec;
+}
+.info h2{
+    font-size: 32px;
+    
+}
+.info p{
+    color:#e7d616;
+    font-size: 27px;
+}
+.slogan p{
+    text-align: center;
+    color: black;
+    
+    font-size: 20px;
+    line-height: 10px;
+    margin-left: 0;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.btn{
+    background: #068624;
+    border-radius: 20px;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    border: 1px solid transparent;
+    transition: all 0.4s ease;
+}
+.btn:hover{
+    background: transparent;
+    color: white;
+    border: 1px solid #f2f3f7;
+}
+.img-box{
+    width: 45%;   
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.img-box img{
+    height: 50%;
+    position: absolute;
+    left: 63%;
+    bottom: 50%;
+    transform: translateX(-60%);
+    transition:bottom 1s, left 1s ;
+}
+.imag-box:hover .man-imag{
+    left: 54%;
+}
+.social{
+    text-align: center;
+    margin-left: 0;
+    margin-top: 25px;
+}
+
+.social a{
+    font-size: 30px;
+    color: #06142f;
+    margin-right: 20px;
+}
+.social a:hover{
+    color: #04355a;
+}
+.teal{
+    border-radius: 4px;
+}
+.teal:hover{
+    background: transparent;
+    color: teal;
+    border: 1px solid teal;
+    
+    
+}
+.btn_register{
+    background: #04355a;
+    border-radius: 20px;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    border: 1px solid transparent;
+    transition: all 0.4s ease;
+}
+.btn_register:hover{
+    background: transparent;
+    color: #04355a;
+    border: 1px solid #04355a;
+}
+.btn_login{
+    background: #04355a;
+    border-radius: 20px;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    border: 1px solid transparent;
+    transition: all 0.4s ease;
+}
+.btn_login:hover{
+    background: transparent;
+    color: #04355a;
+    border: 1px solid #04355a;
+}

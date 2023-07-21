@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>sign up Form</title>
+    <link type="text/css" rel="stylesheet" href="signup.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="signup_page">
+      <h1>Create new Account</h1>
+      <br />
+      <p>
+        Already Registered?<a href="http://127.0.0.1:5500/login.html">
+          Log in here!</a
+        >
+      </p>
+    </div>
+
+    <!-- Body of Form starts -->
+    <div class="container">
+      <form method="post" autocomplete="on">
+        <!-- name-->
+        <div class="box">
+          <label for="firstName" class="fl fontLabel"> <b>Name:</b> </label>
+          <div class="new iconBox">
+            <i class="fa fa-user" aria-hidden="true"></i>
+          </div>
+          <div class="fr">
+            <input
+              type="text"
+              name="firstName"
+              placeholder="Name"
+              class="textBox"
+              autofocus="on"
+              required
+            />
+          </div>
+          <div class="clr"></div>
+        </div>
+        <!-- name-->
+
+        <!---Email ID---->
+        <div class="box">
+          <label for="email" class="fl fontLabel"> <b>Email ID:</b> </label>
+          <div class="fl iconBox">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+          </div>
+          <div class="fr">
+            <input
+              type="email"
+              required
+              name="email"
+              placeholder="Email Id"
+              class="textBox"
+            />
+          </div>
+          <div class="clr"></div>
+        </div>
+        <!--Email ID----->
+
+        <!---Phone No.------>
+        <div class="box">
+          <label for="phone" class="fl fontLabel"> <b>Phone No.:</b> </label>
+          <div class="fl iconBox">
+            <i class="fa fa-phone-square" aria-hidden="true"></i>
+          </div>
+          <div class="fr">
+            <input
+              type="text"
+              required
+              name="phoneNo"
+              maxlength="10"
+              placeholder="Phone No."
+              class="textBox"
+            />
+          </div>
+          <div class="clr"></div>
+        </div>
+        <!---Phone No.---->
+
+        <!--USN/Fac ID-->
+        <div class="box">
+          <label for="usn" class="fl fontLabel"> <b>USN / Fac. ID:</b> </label>
+          <div class="new iconBox">
+            <i class="fa fa-user" aria-hidden="true"></i>
+          </div>
+          <div class="fr">
+            <input
+              type="text"
+              name="usn"
+              placeholder="Usn / Faculty ID"
+              class="textBox"
+              autofocus="on"
+              required
+            />
+          </div>
+          <div class="clr"></div>
+        </div>
+        <!--First name-->
+
+        <!--College name-->
+        <div class="box">
+          <label for="secondName" class="fl fontLabel">
+            <b>College Name:</b>
+          </label>
+          <div class="fl iconBox">
+            <i class="fa fa-user" aria-hidden="true"></i>
+          </div>
+          <div class="fr">
+            <input
+              type="text"
+              required
+              name="secondName"
+              placeholder="College Name"
+              class="textBox"
+            />
+          </div>
+          <div class="clr"></div>
+        </div>
+        <!--Second name-->
+
+        <!---Password------>
+        <div class="box">
+          <label for="password" class="fl fontLabel"> <b>Password</b> </label>
+          <div class="fl iconBox">
+            <i class="fa fa-key" aria-hidden="true"></i>
+          </div>
+          <div class="fr">
+            <input
+              type="Password"
+              required
+              name="password"
+              placeholder="Password"
+              class="textBox"
+            />
+          </div>
+          <div class="clr"></div>
+        </div>
+        <!---Password---->
+
+        <!----User-type---->
+        <div class="box radio">
+          <label for="user" class="fl fontLabel"> <b>User:</b> </label>
+          <input
+            type="radio"
+            name="userType"
+            id="student"
+            value="student"
+            required
+          />
+          <label for="student">Student</label>
+          <input
+            type="radio"
+            name="userType"
+            id="faculty"
+            value="faculty"
+            required
+          />
+          <label for="faculty">Faculty</label>
+        </div>
+
+        <!---Department--->
+
+        <!--Terms and Conditions----
+    		<div class="box terms">
+    				<input type="checkbox" name="Terms" required> &nbsp; I accept the terms and conditions
+    		</div>
+    		Terms and Conditions------>
+
+        <!---Submit Button------>
+        <div class="box" style="margin-left: -30%">
+          <input type="Submit" name="Submit" class="submit" value="SIGN UP" />
+        </div>
+        <!---Submit Button----->
+      </form>
+    </div>
+    <!--Body of Form ends--->
+  </body>
+</html>
