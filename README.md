@@ -1,7 +1,7 @@
 # DLithe-Project
 JP043 - Research Tracker
 
-# Research Tracker Application
+# Research Paper Tracker Application
 
 Abstract
 
